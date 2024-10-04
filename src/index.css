@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
+
+#root {
+  background-color: #212529;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.App {
+  justify-content: space-between;
+}
+.navbar__title {
+  color: white;
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 5rem;
+  text-decoration: none;
+}
+
+.mb-50vh {
+  margin-bottom: 40vh;
+}
+
+.categorycard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+}
+
+.categorypage__icon {
+  font-size: 10rem;
+}
+
+.logo {
+  font-size: 130px;
+}
+.icon {
+  font-size: 25px;
+  color: #212529;
+}
+
+.trophy__gold {
+  font-size: 8rem;
+  color: #f1e100;
+  line-height: 1rem;
+  filter: drop-shadow(0 0 5px #f1e100) drop-shadow(0 0 20px #f1e100);
+}
+
+.trophy__silver {
+  font-size: 8rem;
+  color: #aaa;
+  line-height: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar__title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container_category {
+    width: 870px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar__title {
+    font-size: 2rem;
+  }
+
+  .categorycard {
+    font-size: 8rem;
+  }
+  .logo {
+    font-size: 80px;
+  }
+  .custom-btn {
+    min-height: 65px;
+    height: 100%;
+  }
+
+  .custom-question {
+    height: 65px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .asidefooter {
+    max-width: 80px;
+  }
+}
